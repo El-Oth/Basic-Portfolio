@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(233,233,233);
+    width: 960px;
+    height: 100%;
+}
+header nav, header h1 {
+    display:inline-block;
+    vertical-align:middle;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+     background-color: rgb(75,169,165);
+     border: 2px solid rgb(74,170,165);
+     border-radius: 2px;
+     width: 25%;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: rgb(75,169,165);
+
+}
+nav {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size-adjust: auto;    
+}
+
+.first-class, h2, h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.first-class {
+    font-size: 20px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+div {
+    background-color: white;
+    width: 650px;
+    padding: 50px;
+    margin: 25px;
+}
+.sidebar  {
+    position: 30%;
+    float: right;
+    width: 270px;
+    padding-right: 50px;
+    position: absolute;  /* add absolute positioning */
+    right: 10%;            /* on the right */
+    top: 20%;              /* at the top */
+    }
+li {
+    float: left;
+}
+li, a {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(102,102,102);
+    color: white;
+    text-align: center;
+}
